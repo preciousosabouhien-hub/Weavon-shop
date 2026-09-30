@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root { --gold: #c8a45d; --cream: #faf8f3; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--cream); color: #211f1b; }
+button, a { transition: .2s ease; }
