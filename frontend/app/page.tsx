@@ -18,7 +18,7 @@ export default function Home(){
     </div><Link href="/shop" className="text-sm font-semibold underline">View all</Link></div>
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">{featured.map(p=><ProductCard key={p.id} p={p}/>)}</div></section>
   <section id="about" className="bg-white"><div className="mx-auto grid max-w-7xl gap-10 px-5 py-20 md:grid-cols-2"><div>
-    <p className="text-sm uppercase tracking-widest text-[#9b7a3d]">Why LuxeStrand</p>
+    <p className="text-sm uppercase tracking-widest text-[#9b7a3d]">Why Ssusuluxe</p>
     <h2 className="mt-2 text-4xl font-bold">Luxury that feels like you.</h2></div>
     <div className="text-neutral-600 leading-7">
         <p>We make premium hair shopping simple. Every piece is selected with texture, quality and versatility in mind.</p>
